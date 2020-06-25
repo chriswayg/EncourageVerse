@@ -4,7 +4,6 @@ QLabel {
     min-height: 6em;
     font-family: Papyrus, Georgia, serif;
     font-size: 20pt;
-    
 }
 
 QPushButton {
