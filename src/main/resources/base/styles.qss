@@ -1,0 +1,12 @@
+QLabel {
+    min-width: 20em;
+    max-width: 30em;
+    min-height: 6em;
+    font-family: Papyrus, Georgia, serif;
+    font-size: 20pt;
+    
+}
+
+QPushButton {
+    max-width: 10em;
+}
