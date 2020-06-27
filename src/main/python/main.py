@@ -1,11 +1,9 @@
+import sys
+import requests
 from fbs_runtime.application_context.PyQt5 import ApplicationContext
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QVBoxLayout
 
-# http://www.ourmanna.com/verses/api/
-
-import requests
-import sys
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -23,8 +21,11 @@ class MainWindow(QWidget):
         self.setLayout(layout)
         text.setText(_get_quote())
 
+
+# http://www.ourmanna.com/verses/api/
 def _get_quote():
     return requests.get('https://beta.ourmanna.com/api/v1/get/?format=text&order=random').text
+
 
 if __name__ == '__main__':
     appctxt = ApplicationContext()

@@ -2,7 +2,7 @@ QLabel {
     min-width: 20em;
     max-width: 30em;
     min-height: 6em;
-    font-family: Papyrus, Georgia, serif;
+    font-family: Papyrus, Georgia, URW Chancery, Century Schoolbook, serif;
     font-size: 20pt;
 }
 
